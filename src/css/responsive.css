@@ -1,0 +1,220 @@
+/* desktop all */
+@media (min-width: 768px) {
+  header.header .menu > ul li.drop:hover .sub {
+    display: block; }
+  header.header .menu > ul li.drop:hover:before {
+    width: 100%;
+    height: 6px;
+    background: #f47920;
+    content: '';
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    z-index: 1000; }
+  .card-mobile {
+    display: none; }
+  .pagina-inicial #slider .inner .image .mobile {
+    display: none; }
+  .pagina-inicial #slider .inner .image .desk {
+    display: block; } }
+
+/* mobile all*/
+@media (max-width: 767px) {
+  header.header {
+    height: auto;
+    background: #fff;
+    padding: 0; }
+    header.header .left {
+      width: 100%; }
+      header.header .left > div {
+        width: 50%;
+        float: left; }
+        header.header .left > div.botao-entrar {
+          display: none; }
+          header.header .left > div.botao-entrar a {
+            border: 2px solid #fff;
+            height: 44px;
+            line-height: 40px; }
+        header.header .left > div.logo {
+          width: 50%;
+          text-align: left;
+          /*img.mobile{
+							display:inline-block;
+						}*/ }
+          header.header .left > div.logo img.desk {
+            display: inline-block; }
+    header.header .right {
+      position: relative;
+      padding-left: 0;
+      padding-right: 0;
+      overflow: hidden;
+      height: 0; }
+      header.header .right.active {
+        height: 100vh;
+        position: fixed;
+        top: 55px; }
+      header.header .right .menu {
+        border-top: 2px solid #ccc;
+        position: absolute;
+        z-index: 9999;
+        background: #fff;
+        height: 1000px;
+        padding: 15px 0;
+        left: 0;
+        -moz-transform: translateX(1000px);
+        -webkit-transform: translateX(1000px);
+        -o-transform: translateX(1000px);
+        -ms-transform: translateX(1000px);
+        transform: translateX(1000px); }
+        header.header .right .menu > ul li {
+          width: 100%;
+          height: auto;
+          line-height: auto; }
+          header.header .right .menu > ul li a {
+            width: 100%;
+            height: auto;
+            line-height: 35px;
+            padding: 0; }
+        header.header .right .menu > ul li.drop:before {
+          display: none; }
+        header.header .right .menu > ul li.drop.active .sub {
+          display: block; }
+        header.header .right .menu > ul li.drop .sub {
+          position: relative;
+          top: 0;
+          left: 10px;
+          padding-top: 0;
+          padding-bottom: 0;
+          padding: 0 20px 0 0;
+          width: 100%;
+          box-shadow: none; }
+          header.header .right .menu > ul li.drop .sub > div {
+            padding-left: 0;
+            padding-right: 0;
+            margin-bottom: 20px; }
+          header.header .right .menu > ul li.drop .sub#submenu-1, header.header .right .menu > ul li.drop .sub#submenu-2, header.header .right .menu > ul li.drop .sub#submenu-3 {
+            margin-left: 0;
+            width: 100%; }
+        header.header .right .menu .botao {
+          padding-left: 10px; }
+        header.header .right .menu.active {
+          -moz-transform: translateX(0);
+          -webkit-transform: translateX(0);
+          -o-transform: translateX(0);
+          -ms-transform: translateX(0);
+          transform: translateX(0); }
+  .pagina-inicial #slider {
+    margin-bottom: 0; }
+  #busca {
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    float: left;
+    padding: 0 20px;
+    margin-top: -20px; }
+  #busca .box {
+    width: 100%;
+    height: auto; }
+    #busca .box input {
+      margin-bottom: 4px;
+      height: 45px;
+      line-height: 45px; }
+    #busca .box .cards {
+      display: none;
+      width: 100%;
+      margin: 0 0 10px 0;
+      height: 148px; }
+      #busca .box .cards.card-mobile {
+        box-shadow: none;
+        padding: 0;
+        height: auto;
+        cursor: pointer; }
+      #busca .box .cards.card-1 {
+        display: block; }
+      #busca .box .cards.card-9 {
+        text-align: center; }
+      #busca .box .cards span {
+        color: #f47920;
+        padding: 4px 0 5px 10px; }
+      #busca .box .cards .box-icons {
+        margin-top: -3px; }
+        #busca .box .cards .box-icons img {
+          width: 100%; }
+      #busca .box .cards.card-2 img {
+        max-width: 98px; }
+  #busca .box .box-icons .icons .phone_,
+  #busca .box .box-calendars .calendar .phone_ {
+    display: block; }
+  #busca .box .box-icons .icons .desk_,
+  #busca .box .box-calendars .calendar .desk_ {
+    display: none; }
+  #busca .box .box-persons {
+    min-height: 32px; }
+  #busca .box .box-persons .person strong {
+    font-size: 22px;
+    font-family: 'GothamRounded-Medium'; }
+  #busca .box .box-persons .person .reduce, #busca .box .box-persons .person .plus {
+    width: 34px;
+    height: 34px; }
+  #busca .box .box-persons .person .reduce {
+    background-image: url("../images/mobile/btn_menos_off.png"); }
+    #busca .box .box-persons .person .reduce:hover, #busca .box .box-persons .person .reduce.active {
+      background-image: url("../images/mobile/btn_menos_on.png"); }
+  #busca .box .box-persons .person .plus {
+    background-image: url("../images/mobile/btn_mais_off.png"); }
+    #busca .box .box-persons .person .plus:hover, #busca .box .box-persons .person .plus.active {
+      background-image: url("../images/mobile/btn_mais_on.png"); }
+  #busca .box .cards.input {
+    height: 50px; }
+  .slick-dots {
+    display: none !important; }
+  .sidebar img {
+    width: 100%; }
+  .pagina-minha-conta #minha-conta .faixa-verde {
+    margin-top: 20px; }
+  .pagina-minha-conta #busca {
+    bottom: 0; }
+  .pagina-minha-conta .img-3 img {
+    width: 100%;
+    margin-top: 20px; }
+  .pagina-minha-conta .pull-right {
+    width: 100%;
+    margin-top: 15px; }
+  .pagina-minha-conta .img-responsive {
+    width: 100%;
+    margin-bottom: 20px; }
+  .titulo-2 {
+    font-size: 17px; }
+  .pagina-clube #clube {
+    margin-top: 0; }
+  .menu-mobile {
+    display: block; }
+  .pagina-busca .busca {
+    margin-top: 30px; }
+  .pagina-busca #busca .box .desk {
+    display: none; }
+  .pagina-busca #busca .box .phone {
+    display: block; }
+  .pagina-minha-conta #minha-conta {
+    margin-top: 0; }
+  .chat {
+    bottom: 0;
+    top: auto;
+    display: none; }
+  .busca-shadow {
+    background: #000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 8000;
+    position: fixed;
+    opacity: 0.5; }
+  .pagina-inicial #slider .inner .image .mobile {
+    display: block; }
+  .pagina-inicial #slider .inner .image .desk {
+    display: none; } }
+
+@media (max-width: 480px) {
+  header.header .logo img {
+    max-width: 100px; } }

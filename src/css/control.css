@@ -1,0 +1,17 @@
+/* @media screen and (max-width: 760px){
+	footer .desk {
+		display: none;
+	}
+	footer .mobile {
+		display: block;
+	}
+}
+@media screen and (min-width: 761px){
+	footer .desk {
+		display: block;
+	}
+	footer .mobile {
+		display: none;
+	}	
+}
+*/

@@ -1,0 +1,135 @@
+body {
+  font-family: 'GothamRounded-Light'; }
+
+#busca {
+  padding: 20px 0;
+  position: absolute;
+  bottom: -90px;
+  left: 0;
+  width: 100%;
+  z-index: 8100; }
+  #busca .box {
+    height: 101px;
+    margin: 0 auto;
+    width: 977px; }
+    #busca .box .cards {
+      background-color: #FFF;
+      box-shadow: 0px 3px 12px -3px #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      float: left;
+      margin: 0 5px;
+      height: 100px;
+      padding: 5px 10px;
+      width: 220px; }
+      #busca .box .cards span {
+        color: #9b9b9b;
+        font-family: 'GothamRounded-Light';
+        font-size: 16px;
+        font-weight: 300;
+        display: block;
+        margin-bottom: 5px; }
+    #busca .box .input {
+      background-color: #f47920;
+      float: left;
+      margin: 0;
+      width: 55px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #FFF;
+      font-size: 25px; }
+    #busca .box .box-icons {
+      align-items: center;
+      display: flex;
+      justify-content: space-around;
+      height: 62px; }
+      #busca .box .box-icons .icons {
+        cursor: pointer;
+        text-align: center;
+        height: 100%;
+        width: calc(100%/3);
+        margin: 0 2px; }
+        #busca .box .box-icons .icons .phone_ {
+          display: none; }
+        #busca .box .box-icons .icons .on {
+          display: none; }
+        #busca .box .box-icons .icons .off {
+          display: block; }
+        #busca .box .box-icons .icons:hover .off, #busca .box .box-icons .icons.active .off {
+          display: none; }
+        #busca .box .box-icons .icons:hover .on, #busca .box .box-icons .icons.active .on {
+          display: block; }
+    #busca .box .box-calendars {
+      aligm-items: center;
+      display: flex;
+      justify-content: space-around;
+      height: 62px; }
+      #busca .box .box-calendars .calendar {
+        cursor: pointer;
+        text-align: center;
+        height: 100%;
+        width: calc(100%/2);
+        margin: 0 2px;
+        position: relative; }
+        #busca .box .box-calendars .calendar .phone_ {
+          display: none; }
+        #busca .box .box-calendars .calendar input {
+          position: absolute;
+          top: 0;
+          left: 0;
+          background: transparent;
+          width: 100%;
+          height: 60px;
+          cursor: pointer;
+          box-shadow: none  !important;
+          border: 0;
+          text-indent: -9999px; }
+        #busca .box .box-calendars .calendar .on {
+          display: none; }
+        #busca .box .box-calendars .calendar .off {
+          display: block; }
+        #busca .box .box-calendars .calendar:hover .off, #busca .box .box-calendars .calendar.active .off {
+          display: none; }
+        #busca .box .box-calendars .calendar:hover .on, #busca .box .box-calendars .calendar.active .on {
+          display: block; }
+    #busca .box .box-persons {
+      padding-top: 3px; }
+      #busca .box .box-persons .person {
+        width: 100%; }
+        #busca .box .box-persons .person:first-of-type {
+          margin-bottom: 6px; }
+        #busca .box .box-persons .person strong {
+          font-size: 15px;
+          font-weight: 500;
+          color: #4a4a4a; }
+          #busca .box .box-persons .person strong em {
+            color: #f47920;
+            font-style: normal; }
+        #busca .box .box-persons .person .reduce, #busca .box .box-persons .person .plus {
+          float: right;
+          height: 22px;
+          width: 22px; }
+        #busca .box .box-persons .person .plus {
+          margin-left: 5px; }
+        #busca .box .box-persons .person .reduce {
+          background-image: url("../images/menos_off.png"); }
+          #busca .box .box-persons .person .reduce:hover, #busca .box .box-persons .person .reduce.active {
+            background-image: url("../images/menos_on.png"); }
+        #busca .box .box-persons .person .plus {
+          background-image: url("../images/mais_off.png"); }
+          #busca .box .box-persons .person .plus:hover, #busca .box .box-persons .person .plus.active {
+            background-image: url("../images/mais_on.png"); }
+    #busca .box input {
+      border: solid 1px rgba(155, 155, 155, 0.6);
+      color: #333;
+      line-height: 28px;
+      height: 24px;
+      margin-bottom: 8px;
+      padding: 5px;
+      margin-bottom: 13px; }
+      #busca .box input:hover {
+        background-color: #FFF; }
+
+.busca-mobile {
+  display: none; }

@@ -1,0 +1,408 @@
+
+@font-face {
+  font-family: 'Museo Slab 700';
+  src: url('../fonts/museo/museo_slab_700-webfont.eot');
+  src: url('../fonts/museo/museo_slab_700-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/museo/museo_slab_700-webfont.woff') format('woff'),
+    url('../fonts/museo/museo_slab_700-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Museo Slab 500';
+  src: url('../fonts/museo/museoSlab-500.eot');
+  src: url('../fonts/museo/museoSlab-500.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/museo/museoSlab-500.woff') format('woff'),
+    url('../fonts/museo/museoSlab-500.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Museo Slab 300';
+  src: url('../fonts/museo/museoSlab-300.eot');
+  src: url('../fonts/museo/museoSlab-300.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/museo/museoSlab-300.woff') format('woff'),
+    url('../fonts/museo/museoSlab-300.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MuseoSlab-900';
+  src: url('../fonts/museo/museoSlab-900.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/museo/museoSlab-900.otf')  format('opentype'),
+       url('../fonts/museo/museoSlab-900.woff') format('woff'),
+       url('../fonts/museo/museoSlab-900.ttf')  format('truetype'), 
+       url('../fonts/museo/museoSlab-900.svg#MuseoSlab-900') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Museo Slab 1000';
+  src: url('../fonts/museo/museoSlab-1000.eot');
+  src: url('../fonts/museo/museoSlab-1000.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/museo/museoSlab-1000.woff') format('woff'),
+    url('../fonts/museo/museoSlab-1000.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Museo Slab 700';
+  src: url("../fonts/museo/museo_slab_700-webfont.eot");
+  src: url("../fonts/museo/museo_slab_700-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/museo/museo_slab_700-webfont.woff") format("woff"), url("../fonts/museo/museo_slab_700-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Museo Slab 500';
+  src: url("../fonts/museo/museoSlab-500.eot");
+  src: url("../fonts/museo/museoSlab-500.eot?#iefix") format("embedded-opentype"), url("../fonts/museo/MuseoSlab-500.woff") format("woff"), url("../fonts/museo/MuseoSlab-500.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Museo Slab 300';
+  src: url("../fonts/museo/museoSlab-300.eot");
+  src: url("../fonts/museo/museoSlab-300.eot?#iefix") format("embedded-opentype"), url("../fonts/museo/MuseoSlab-300.woff") format("woff"), url("../fonts/museo/MuseoSlab-300.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'MuseoSlab-900';
+  src: url("../fonts/museo/museoSlab-900.eot?#iefix") format("embedded-opentype"), url("../fonts/museo/MuseoSlab-900.otf") format("opentype"), url("../fonts/museo/MuseoSlab-900.woff") format("woff"), url("../fonts/museo/MuseoSlab-900.ttf") format("truetype"), url("../fonts/MuseoSlab-900.svg#MuseoSlab-900") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Museo Slab 1000';
+  src: url("../fonts/museo/museoSlab-1000.eot");
+  src: url("../fonts/museo/museoSlab-1000.eot?#iefix") format("embedded-opentype"), url("../fonts/museo/MuseoSlab-1000.woff") format("woff"), url("../fonts/museo/MuseoSlab-1000.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+
+/* font: ubuntu */
+
+@font-face {
+    font-family: 'ubuntubold';
+    src: url('../fonts/ubuntu/ubuntu-bold-webfont.woff2') format('woff2'),
+         url('../fonts/ubuntu/ubuntu-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ubuntubold_italic';
+    src: url('../fonts/ubuntu/ubuntu-bolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/ubuntu/ubuntu-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ubuntuitalic';
+    src: url('../fonts/ubuntu/ubuntu-italic-webfont.woff2') format('woff2'),
+         url('../fonts/ubuntu/ubuntu-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ubuntulight';
+    src: url('../fonts/ubuntu/ubuntu-light-webfont.woff2') format('woff2'),
+         url('../fonts/ubuntu/ubuntu-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ubuntulight_italic';
+    src: url('../fonts/ubuntu/ubuntu-lightitalic-webfont.woff2') format('woff2'),
+         url('../fonts/ubuntu/ubuntu-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ubuntumedium';
+    src: url('../fonts/ubuntu/ubuntu-medium-webfont.woff2') format('woff2'),
+         url('../fonts/ubuntu/ubuntu-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ubuntumedium_italic';
+    src: url('../fonts/ubuntu/ubuntu-mediumitalic-webfont.woff2') format('woff2'),
+         url('../fonts/ubuntu/ubuntu-mediumitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ubunturegular';
+    src: url('../fonts/ubuntu/ubuntu-regular-webfont.woff2') format('woff2'),
+         url('../fonts/ubuntu/ubuntu-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ubuntu_condensedregular';
+    src: url('../fonts/ubuntu/ubuntucondensed-regular-webfont.woff2') format('woff2'),
+         url('../fonts/ubuntu/ubuntucondensed-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* ---------- 1- reset --------- */
+*, *:before, *:after{
+  margin:0;
+  padding:0;
+  -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+        box-sizing: border-box;
+
+}
+
+html, body{
+   font-family: 'ubuntumedium';
+  font-size:12px;
+  color:rgba(74, 74, 74, 0.83);
+}
+
+:focus{
+  outline: none;
+}
+a,
+a:hover,
+a:focus{
+  text-decoration:none;
+  outline:0 none;
+  text-decoration:none;
+}
+li{
+  list-style:none;
+}
+p{
+  font-size:26px; font-size: 1rem;
+  
+  -webkit-backface-visibility: hidden;
+  font-style: normal;
+  color:rgba(74, 74, 74, 0.83);
+  line-height: 1.31rem;
+   
+}
+p strong{
+ 
+ font-weight: 700;
+}
+textarea{
+  resize:none;
+}
+
+.size-full{
+  display:block;
+  max-width:100%;
+  height: auto;
+}
+
+.img-full{
+  width:100%  !important;
+}
+
+.hr-line{
+  display:inline-block;
+  width:80%;
+  height:2px;
+  background:#ededed;
+}
+blockquote{
+  border:0;
+  padding:0;
+  margin: 0;
+}
+
+::selection {
+  background: #4a4a4a;
+  color:#fff;
+}
+::-moz-selection {
+  background: #4a4a4a;
+  color:#fff;
+}
+
+.clearfix:after {
+  content:".";
+  display:block;
+  clear:both;
+  visibility:hidden;
+  line-height:0;
+  height:0;
+}
+
+.clearfix {
+  display:inline-block;
+}
+
+html[xmlns] .clearfix {
+  display:block;
+}
+
+* html .clearfix {
+  height:1%;
+}
+
+*{
+    /* safari
+    -webkit-transform: translateZ(0); */
+}
+
+.container {
+    max-width: 100%;
+    width: 100%;
+}
+.container-reduzido{
+  float:left;
+  width:100%;
+  padding: 0 80px;
+}
+
+.parallax{
+  background-position: 50% 0;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+}
+
+/* margens */
+
+/* margin positiva */
+.mgn-top-80{
+  margin-top:80px !important;
+}
+.mgn-top-70{
+  margin-top:70px !important;
+}
+.mgn-top-60{
+  margin-top:60px !important;
+}
+.mgn-top-50{
+  margin-top:50px !important;
+}
+.mgn-top-40{
+  margin-top:40px !important;
+}
+.mgn-top-20{
+  margin-top:20px !important;
+}
+.mgn-bottom-20{
+  margin-bottom:20px !important;
+}
+.mgn-bottom-30{
+  margin-bottom:30px !important;
+}
+.mgn-bottom-40{
+  margin-bottom:40px !important;
+}
+.mgn-bottom-50{
+  margin-bottom:50px !important;
+}
+.mgn-bottom-80{
+  margin-bottom:80px !important;
+}
+
+
+/* margin negativa */
+.mgn-top--80{
+  margin-top:-80px !important;
+}
+.mgn-top--50{
+  margin-top:-50px !important;
+}
+.mgn-right--80{
+  margin-right:-80px !important;
+}
+.mgn-right--50{
+  margin-right:-50px !important;
+}
+.mgn-right--30{
+  margin-right:-30px !important;
+}
+.mgn-right--50{
+  margin-right:-50px !important;
+}
+
+
+
+
+
+
+
+/* ---------- reset --------- */
+
+
+/* ---------- medidas --------- */
+
+/* vw 1436
+  36px = 2.5069637883008355vw
+	41px = 2.8551532033426184vw
+  57px = 3.969359331476323vw
+	76px = 5.2924791086350975vw
+  100px = 6.963788300835654vw
+	120px = 8.356545961002785vw
+  123px = 8.565459610027855vw
+  195px = 13.579387186629527vw
+  406px = 28.27298050139276vw
+  458px = 31.894150417827298vw
+*/
+/* vh  1026
+  5px = 0.4873294346978557vh
+  15px = 1.4619883040935673vh
+  22px = 2.1442495126705654vh
+  26px = 2.53411306042885vh
+  28px = 2.729044834307992vh
+  34px = 3.313840155945419vh;
+  36px = 3.508771929824561vh
+	43px = 4.1910331384015596vh
+  46px = 4.483430799220273vh
+	48px = 4.678362573099415vh 
+  57px = 5.555555555555555vh
+  60px = 5.847953216374269vh
+	77px = 7.504873294346979vh 
+	//78px = 9.512195121951219vh	
+  80px = 7.797270955165692vh
+  96px = 9.35672514619883vh
+  105px = 10.23391812865497vh
+ 	120px = 11.695906432748538vh	
+ 	202px = 19.68810916179337vh
+	270px = 26.31578947368421vh
+  272px = 26.510721247563353vh
+  290px = 28.265107212475634vh
+  330px = 32.16374269005848vh
+  418px = 40.74074074074074vh
+	554px = 53.99610136452242vh
+  962px = 93.76218323586744vh
+
+
+  REM
+  20px = 0.769rem
+  26px = 1rem
+  29px = 1.115rem
+  30px = 1.154rem
+  32px = 1.231rem
+  36px = 1.385rem
+  46px = 1.769rem
+  52px = 2.000rem
+  60px = 2.308rem
+  64px = 2.462rem
+  72px = 2.769rem
+
+
+
+
+
+
+*/
+
+
+
+
+/* ---------- /medidas --------- */

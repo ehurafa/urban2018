@@ -1,0 +1,90 @@
+.menu-mobile {
+  display: none; }
+
+.fixed-header header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 12;
+  background-position: bottom center;
+  background-size: 100%;
+  height: 60px;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease; }
+  .fixed-header header .container {
+    background-color: #FFF;
+    max-width: 100% !important;
+    width: 100% !important; }
+    .fixed-header header .container .row {
+      margin: 0 auto;
+      width: 980px; }
+
+.fixed-header .menu-bar {
+  display: none; }
+
+.fixed-header .menu-toggle {
+  cursor: pointer;
+  display: block;
+  float: right;
+  margin: 33px 35px 0; }
+  .fixed-header .menu-toggle i {
+    color: #FFF;
+    font-size: 40px; }
+
+.fixed-header #busca {
+  position: fixed;
+  bottom: 0;
+  height: 140px;
+  top: 60px;
+  left: 50%;
+  width: 977px;
+  z-index: 11;
+  margin-left: -488.55px; }
+
+.fixed-header.pagina-inicial #boxImgHeader {
+  background-image: url("../images/topo_rolagem.png");
+  position: fixed;
+  height: 160px;
+  width: 100%;
+  z-index: 10;
+  background-position: bottom center;
+  background-size: 100%; }
+
+.fixed-header.pagina-minha-conta #boxImgHeader {
+  background-image: url("../images/topo_rolagem-minha-conta.png");
+  position: fixed;
+  height: 160px;
+  width: 100%;
+  z-index: 10;
+  background-position: bottom center;
+  background-size: 100%; }
+
+.fixed-header.pagina-clube #boxImgHeader {
+  background-image: url("../images/topo_rolagem-clube.png");
+  position: fixed;
+  height: 160px;
+  width: 100%;
+  z-index: 10;
+  background-position: bottom center;
+  background-size: 100%; }
+
+.fixed-header.pagina-atendimento #boxImgHeader {
+  background-image: url("../images/topo_rolagem.png");
+  position: fixed;
+  height: 160px;
+  width: 100%;
+  z-index: 10;
+  background-position: bottom center;
+  background-size: 100%; }
+
+.fixed-header.pagina-busca #boxImgHeader {
+  background-image: url("../images/topo_rolagem.png");
+  position: fixed;
+  height: 160px;
+  width: 100%;
+  z-index: 10;
+  background-position: bottom center;
+  background-size: 100%; }
